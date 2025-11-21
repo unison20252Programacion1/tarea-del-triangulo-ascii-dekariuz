@@ -6,7 +6,7 @@ def triangulo_simetrico(m: int, s: str) -> str:
         print("Error: La altura debe ser un entero positivo")
         return
         
-    # Parte 1: trinagulo Creciente
+    # Parte 1: triangulo Creciente
     for i in range(1, m + 1):
         print(s * i)
     
